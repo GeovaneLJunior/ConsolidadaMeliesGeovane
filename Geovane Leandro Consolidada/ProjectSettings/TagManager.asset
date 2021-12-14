@@ -59,3 +59,9 @@ TagManager:
   - name: Ui Layer
     uniqueID: 3383685101
     locked: 0
+  - name: menuOpcoes
+    uniqueID: 2424279197
+    locked: 0
+  - name: MenuSair
+    uniqueID: 112001129
+    locked: 0

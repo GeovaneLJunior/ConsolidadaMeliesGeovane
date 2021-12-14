@@ -17,7 +17,7 @@ public class MenuInicial : MonoBehaviour
 
     public void BotaoJogar()
     {
-        SceneManager.LoadScene("Jogo");
+        SceneManager.LoadScene("SpaceGame");
     }
 
     public void BotaoOpcoes()

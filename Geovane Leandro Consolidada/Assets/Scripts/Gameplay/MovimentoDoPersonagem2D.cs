@@ -15,6 +15,7 @@ public class MovimentoDoPersonagem2D : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
     }
 
     void Update()

@@ -6,12 +6,12 @@ public class MenuSair : MonoBehaviour
 {
     [SerializeField] GameObject menuSair;
 
-    public void BotaoSim()
+    public void BotaoVazar()
     {
         Application.Quit();
     }
 
-    public void BotaoNao()
+    public void FicarNoJogo()
     {
         menuSair.SetActive(false);
     }

@@ -6,54 +6,64 @@ using UnityEngine.UI;
 
 public class MenuOpcoes : MonoBehaviour
 {
+    
+    Resolution[] resolucoes;
     [SerializeField] AudioMixer mixerMenu;
     [SerializeField] GameObject menuOpcoes;
-    [SerializeField] Dropdown resolutionsDropdown;
-    Resolution[] resolutions;
+    [SerializeField] Dropdown menuDeResolucoes;
 
     private void Start()
     {
-        resolutions = Screen.resolutions;
-        resolutionsDropdown.ClearOptions();
+        resolucoes = Screen.resolutions;
+        menuDeResolucoes.ClearOptions();
+        
         int indexResolutions = 0;
+
         List<string> opcoes = new List<string>();
 
-        for (int i = 0; i < resolutions.Length; i++)
+        for (int i = 0; i < resolucoes.Length; i++)
         {
-            string opcao = resolutions[i].width + " x " + resolutions[i].height;
+            string opcao = resolucoes[i].width + " x " + resolucoes[i].height;
             opcoes.Add(opcao);
 
-            if (resolutions[i].width == Screen.currentResolution.width && resolutions[i].height == Screen.currentResolution.height)
+            if (resolucoes[i].width == Screen.currentResolution.width && resolucoes[i].height == Screen.currentResolution.height)
             {
                 indexResolutions = i;
             }
         }
 
-        resolutionsDropdown.AddOptions(opcoes);
-        resolutionsDropdown.value = indexResolutions;
-        resolutionsDropdown.RefreshShownValue();
+        menuDeResolucoes.AddOptions(opcoes);
+        menuDeResolucoes.value = indexResolutions;
+        menuDeResolucoes.RefreshShownValue();
 
     }
 
-    public void BotaoSair()
+    //Botão Sair
+
+    public void BotaoYeah()
     {
         menuOpcoes.SetActive(false);
     }
 
+    //Volume
+
     public void AlterarVolumeMenuInicial(float novoVolume)
     {
         novoVolume = Mathf.Log10(novoVolume) * 20;
-        mixerMenu.SetFloat("VolumeMenuInicial", novoVolume);
+        //prof, essa parte e muito chata
+        mixerMenu.SetFloat("VolumeGeralDaMusiquinha", novoVolume);
     }
 
-    public void TelaCheia(bool queroTelaCheia)
-    {
-        Screen.fullScreen = queroTelaCheia;        
-    }
+    //Resoluções
 
-    public void MudarResolucao(int resolutionIndex)
+    public void MudarResolucao(int novaResolucao)
     {
-        Resolution resolucao = resolutions[resolutionIndex];
+        Resolution resolucao = resolucoes[novaResolucao];
         Screen.SetResolution(resolucao.width, resolucao.height, Screen.fullScreen);
+    }
+
+    public void TelaCheia(bool telaCheia)
+    {
+        Screen.fullScreen = telaCheia;
     }
 }
