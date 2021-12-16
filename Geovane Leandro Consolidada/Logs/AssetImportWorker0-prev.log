@@ -15,11 +15,11 @@ E:/Projetos/Unity/ConsolidadaMeliesGeovane/Geovane Leandro Consolidada
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58335
+59267
 Successfully changed project path to: E:/Projetos/Unity/ConsolidadaMeliesGeovane/Geovane Leandro Consolidada
 E:/Projetos/Unity/ConsolidadaMeliesGeovane/Geovane Leandro Consolidada
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 184.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path E:/Projetos/Unity/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,72 +35,72 @@ Initialize mono
 Mono path[0] = 'E:/Projetos/Unity/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Projetos/Unity/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Projetos/Unity/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Projetos/Unity/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.112475 seconds.
+Registered in 0.001185 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 57.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.965 seconds
+- Completed reload, in  1.179 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3965ms)
-		BeginReloadAssembly (2320ms)
+	ReloadAssembly (1179ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (738ms)
-			LoadAssemblies (2320ms)
+		EndReloadAssembly (423ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (468ms)
+			SetupTypeCache (147ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (173ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (181ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (48ms)
-				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (80ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.435936 seconds.
+Registered in 0.002978 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 46.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 49.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.994 seconds
+- Completed reload, in  1.116 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3998ms)
-		BeginReloadAssembly (147ms)
+	ReloadAssembly (1116ms)
+		BeginReloadAssembly (152ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (3791ms)
-			LoadAssemblies (2271ms)
+		EndReloadAssembly (903ms)
+			LoadAssemblies (106ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (889ms)
+			SetupTypeCache (296ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (483ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (343ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (46ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (352ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (199ms)
 				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
@@ -109,15 +109,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.36 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2096 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 93.4 MB.
-System memory in use after: 93.4 MB.
+System memory in use after: 93.5 MB.
 
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2537.
-Total: 2.849000 ms (FindLiveObjects: 0.170300 ms CreateObjectMapping: 0.076200 ms MarkObjects: 2.517700 ms  DeleteObjects: 0.083900 ms)
+Total: 3.065800 ms (FindLiveObjects: 0.176900 ms CreateObjectMapping: 0.073200 ms MarkObjects: 2.758000 ms  DeleteObjects: 0.056800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,8 +131,625 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Gameplay/MovimentoDoPersonagem2D.cs
-  artifactKey: Guid(52c68b62f7f8f0447ac3cfe136c81321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Gameplay/MovimentoDoPersonagem2D.cs using Guid(52c68b62f7f8f0447ac3cfe136c81321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396235a7ed5b5d22c38353b4816ee356') in 0.128173 seconds 
-  Import took 0.131050 seconds .
+  path: Assets/Scripts/Ui Scripts/UIJogo.cs
+  artifactKey: Guid(fbf1b8c8efb03e64e88d16825c8a5dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ui Scripts/UIJogo.cs using Guid(fbf1b8c8efb03e64e88d16825c8a5dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ca59aca2771ca891e7aeca13d952f3') in 0.353004 seconds 
+  Import took 0.370024 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Scripts/MenuOpcoes.cs
+  artifactKey: Guid(9bd40cff2bde23d4aaef8460465c5795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MenuOpcoes.cs using Guid(9bd40cff2bde23d4aaef8460465c5795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655433413c20ed21c5270276997b4264') in 0.008330 seconds 
+  Import took 0.014170 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002915 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.949 seconds
+Domain Reload Profiling:
+	ReloadAssembly (950ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (770ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (274ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.8 MB.
+System memory in use after: 92.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2540.
+Total: 2.825900 ms (FindLiveObjects: 0.151200 ms CreateObjectMapping: 0.064000 ms MarkObjects: 2.593200 ms  DeleteObjects: 0.016700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002930 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.941 seconds
+Domain Reload Profiling:
+	ReloadAssembly (942ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (769ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (278ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (267ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.9 MB.
+System memory in use after: 93.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2543.
+Total: 2.911400 ms (FindLiveObjects: 0.163200 ms CreateObjectMapping: 0.071200 ms MarkObjects: 2.659000 ms  DeleteObjects: 0.017000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002914 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.014 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1014ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (835ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (274ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (326ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.9 MB.
+System memory in use after: 93.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2546.
+Total: 2.865900 ms (FindLiveObjects: 0.149300 ms CreateObjectMapping: 0.062700 ms MarkObjects: 2.633300 ms  DeleteObjects: 0.020000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 401.511354 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Blue/alienBlue_walk1.png
+  artifactKey: Guid(b877e7c178ef77a4bb06cfa633bf1a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Blue/alienBlue_walk1.png using Guid(b877e7c178ef77a4bb06cfa633bf1a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d1abc7a7bcc635b6d9d953ca7dc3df') in 0.174753 seconds 
+  Import took 0.178344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Blue/alienBlue_walk1.png
+  artifactKey: Guid(f2b30f36c09aab6418c638a7b10b8670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Blue/alienBlue_walk1.png using Guid(f2b30f36c09aab6418c638a7b10b8670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ebe9569dd851de0f6cfde244ea79b2') in 0.044792 seconds 
+  Import took 0.047427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Blue/alienBlue_walk2.png
+  artifactKey: Guid(6cd81cb17b91d944d88c57619d4f1056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Blue/alienBlue_walk2.png using Guid(6cd81cb17b91d944d88c57619d4f1056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ec6ad5934e69468c5c9c7e1e88df6f') in 0.023607 seconds 
+  Import took 0.026398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.895644 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Blue/alienBlue_walk2.png
+  artifactKey: Guid(7e1cf414bc2b8ff4a82e6a08344276a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Blue/alienBlue_walk2.png using Guid(7e1cf414bc2b8ff4a82e6a08344276a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89686bccc3e2009d8fbfc0275bea7a6') in 0.032653 seconds 
+  Import took 0.035790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.136550 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_climb1.png
+  artifactKey: Guid(7d70341793bb83c428febfc29f84e1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_climb1.png using Guid(7d70341793bb83c428febfc29f84e1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a7c803119e830fb445b8bec9064504') in 0.021332 seconds 
+  Import took 0.024266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_climb1.png
+  artifactKey: Guid(066b9df57d0d595488ccaa44b8f1e594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_climb1.png using Guid(066b9df57d0d595488ccaa44b8f1e594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f85d1698137a2bd0ef8c3b566633419') in 0.026255 seconds 
+  Import took 0.028903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.143556 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_climb2.png
+  artifactKey: Guid(eb24336304059a04eafcf0292aae2bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_climb2.png using Guid(eb24336304059a04eafcf0292aae2bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553f1dd26cc19e2d2129d4651dd6054d') in 0.047151 seconds 
+  Import took 0.052620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_climb2.png
+  artifactKey: Guid(da1e271dc1fb23e4dabe8f598b284a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_climb2.png using Guid(da1e271dc1fb23e4dabe8f598b284a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbfca7f9a4318f9f2d332de28b24ff6') in 0.032905 seconds 
+  Import took 0.036305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 359.305685 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_climb1.png
+  artifactKey: Guid(6302b8fc827045f41b4d6f5dfc657361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_climb1.png using Guid(6302b8fc827045f41b4d6f5dfc657361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4db56892edcc1676ed5bf1fb0c4ec92') in 0.054732 seconds 
+  Import took 0.058821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_climb2.png
+  artifactKey: Guid(d3d4c9b8edab9a9439fd9018af37f656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_climb2.png using Guid(d3d4c9b8edab9a9439fd9018af37f656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9768b2f3d549315badb00024c1777c20') in 0.034564 seconds 
+  Import took 0.037621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_duck.png
+  artifactKey: Guid(c26dffc6035ea5f4bbb6c50e5e232eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_duck.png using Guid(c26dffc6035ea5f4bbb6c50e5e232eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b14cbe5376566e91922f298a336a24') in 0.031655 seconds 
+  Import took 0.034464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_climb2.png
+  artifactKey: Guid(d3d4c9b8edab9a9439fd9018af37f656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_climb2.png using Guid(d3d4c9b8edab9a9439fd9018af37f656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9768b2f3d549315badb00024c1777c20') in 0.015007 seconds 
+  Import took 0.017943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_duck.png
+  artifactKey: Guid(c26dffc6035ea5f4bbb6c50e5e232eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_duck.png using Guid(c26dffc6035ea5f4bbb6c50e5e232eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b14cbe5376566e91922f298a336a24') in 0.019792 seconds 
+  Import took 0.022907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_front.png
+  artifactKey: Guid(13051f82fdd49b74d8ae2f6456aac71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_front.png using Guid(13051f82fdd49b74d8ae2f6456aac71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34166ed53338eca3a09ea3f9983f4193') in 0.032499 seconds 
+  Import took 0.035610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003034 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_front.png
+  artifactKey: Guid(13051f82fdd49b74d8ae2f6456aac71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_front.png using Guid(13051f82fdd49b74d8ae2f6456aac71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34166ed53338eca3a09ea3f9983f4193') in 0.019121 seconds 
+  Import took 0.022268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.688206 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_hit.png
+  artifactKey: Guid(3d05ab8a3fc063a4a82b8e3fc02b5366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_hit.png using Guid(3d05ab8a3fc063a4a82b8e3fc02b5366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2ad285e2ee1df29c46239334d8e56b') in 0.043883 seconds 
+  Import took 0.047414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_jump.png
+  artifactKey: Guid(f6a2829b80ae9d14ba5bb731a7abd1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_jump.png using Guid(f6a2829b80ae9d14ba5bb731a7abd1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ee037824c6a56a05ce829f3a73f112') in 0.029437 seconds 
+  Import took 0.032330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_stand.png
+  artifactKey: Guid(d60b27d9a03847f40b24ab0d37df6ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_stand.png using Guid(d60b27d9a03847f40b24ab0d37df6ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ecf52d3093c5a68b59d7f192f601a4') in 0.028381 seconds 
+  Import took 0.031313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031380 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_swim1.png
+  artifactKey: Guid(41d59683a82c10a459fa6b60ef8c78fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_swim1.png using Guid(41d59683a82c10a459fa6b60ef8c78fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00baf9b0613143d64ba8ce5a183382e5') in 0.022979 seconds 
+  Import took 0.025989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.345615 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_swim2.png
+  artifactKey: Guid(fba514fc4fbb5014faec289c27ff9fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_swim2.png using Guid(fba514fc4fbb5014faec289c27ff9fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b09ef287d65a02c3836c2b64210ed58') in 0.030087 seconds 
+  Import took 0.033470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_walk2.png
+  artifactKey: Guid(0259c011ed46061418318e872d916fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_walk2.png using Guid(0259c011ed46061418318e872d916fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6db169327004463cc84e75c35dd78d') in 0.030300 seconds 
+  Import took 0.033088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_walk1.png
+  artifactKey: Guid(2ef142770dddcc64c94f42dd569ba9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_walk1.png using Guid(2ef142770dddcc64c94f42dd569ba9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d7faf1d665c498429e2148d0c4f272') in 0.028180 seconds 
+  Import took 0.031036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_duck.png
+  artifactKey: Guid(3faf94c437689674da31889f0fb73bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_duck.png using Guid(3faf94c437689674da31889f0fb73bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323fadd31b6c50ec3bd6e6440dbb583f') in 0.033184 seconds 
+  Import took 0.035975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_climb2.png
+  artifactKey: Guid(b888b7a47f8aa904d93f5987a66e6378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_climb2.png using Guid(b888b7a47f8aa904d93f5987a66e6378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad506ca7908b979866ab8dd3a74b16ff') in 0.030401 seconds 
+  Import took 0.033034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_front.png
+  artifactKey: Guid(67146ecf2d19bfd44aafea1005ec32cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_front.png using Guid(67146ecf2d19bfd44aafea1005ec32cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22bd7a635c72e292bc58060b2588d36d') in 0.036315 seconds 
+  Import took 0.038991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_climb1.png
+  artifactKey: Guid(d35faff46fbc33848b973571737a7e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_climb1.png using Guid(d35faff46fbc33848b973571737a7e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2db432103d64f60a1d50e8ffd1ef958') in 0.026958 seconds 
+  Import took 0.029651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000894 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_climb1.png
+  artifactKey: Guid(d35faff46fbc33848b973571737a7e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_climb1.png using Guid(d35faff46fbc33848b973571737a7e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2db432103d64f60a1d50e8ffd1ef958') in 0.014325 seconds 
+  Import took 0.017389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063343 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_hit.png
+  artifactKey: Guid(43721c1c975f2c945a70f10f1813f3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_hit.png using Guid(43721c1c975f2c945a70f10f1813f3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4825e239e3c747366c5565ce3e6b46') in 0.028238 seconds 
+  Import took 0.031390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_jump.png
+  artifactKey: Guid(2a2038ce3eca8d146aeed13ba14dd0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_jump.png using Guid(2a2038ce3eca8d146aeed13ba14dd0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d1740fc31d1e3dde3b3b8401815e21') in 0.019379 seconds 
+  Import took 0.022853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_walk1.png
+  artifactKey: Guid(2d1fde7235e3c3147ae36e36b10fcf14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_walk1.png using Guid(2d1fde7235e3c3147ae36e36b10fcf14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1101ee85b35882e005abb06f35ff1947') in 0.023979 seconds 
+  Import took 0.027003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_swim2.png
+  artifactKey: Guid(3051ddd08eee45b43a0fee0396014af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_swim2.png using Guid(3051ddd08eee45b43a0fee0396014af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f257fb03ec5c97f774895e4685df962') in 0.032927 seconds 
+  Import took 0.035978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_swim1.png
+  artifactKey: Guid(394dc6a1fbdbf724c970fc428248f065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_swim1.png using Guid(394dc6a1fbdbf724c970fc428248f065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96e1e125ba83531a9248ee54deccb4e') in 0.029240 seconds 
+  Import took 0.032000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_walk2.png
+  artifactKey: Guid(8db02246a2e003a4abf5d0724f5fdce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_walk2.png using Guid(8db02246a2e003a4abf5d0724f5fdce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd743912973730507b2729f1fb914f4') in 0.024043 seconds 
+  Import took 0.026858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_stand.png
+  artifactKey: Guid(8dc019f45c53cb045996c6b26a03f718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_stand.png using Guid(8dc019f45c53cb045996c6b26a03f718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b35ac33bc4d27049040014bf9fd87a') in 0.022633 seconds 
+  Import took 0.025361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Blue/alienBlue_climb1.png
+  artifactKey: Guid(987f9353defa6754caac6a397eb3ee27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Blue/alienBlue_climb1.png using Guid(987f9353defa6754caac6a397eb3ee27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455eecef7f04c2223d47de0a17aa279d') in 0.030277 seconds 
+  Import took 0.033089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Blue/alienBlue_climb1.png
+  artifactKey: Guid(d2d90923058436649987bc6dbb82dc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Blue/alienBlue_climb1.png using Guid(d2d90923058436649987bc6dbb82dc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f3419381e2648195d2fc259d703b56') in 0.027939 seconds 
+  Import took 0.031089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050034 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Blue/alienBlue_climb2.png
+  artifactKey: Guid(f1fd653d4d3480144b3cff7b435cb310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Blue/alienBlue_climb2.png using Guid(f1fd653d4d3480144b3cff7b435cb310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628efd6b886eac13e5d50b1e9300c978') in 0.031618 seconds 
+  Import took 0.035238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Blue/alienBlue_duck.png
+  artifactKey: Guid(25868455a674fd9409f3b52900911d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Blue/alienBlue_duck.png using Guid(25868455a674fd9409f3b52900911d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fa8a8883291fb35a74df9843994226') in 0.030932 seconds 
+  Import took 0.033735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Blue/alienBlue_hit.png
+  artifactKey: Guid(7a09e8cf4e615a34b86d14bac5216f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Blue/alienBlue_hit.png using Guid(7a09e8cf4e615a34b86d14bac5216f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f1965cc4caddb6d62a8a92a77fe0bd') in 0.029303 seconds 
+  Import took 0.032113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Blue/alienBlue_duck.png
+  artifactKey: Guid(25868455a674fd9409f3b52900911d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Blue/alienBlue_duck.png using Guid(25868455a674fd9409f3b52900911d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fa8a8883291fb35a74df9843994226') in 0.011748 seconds 
+  Import took 0.014439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Blue/alienBlue_climb2.png
+  artifactKey: Guid(ed21cb81f28b06740878bd54b92a9e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Blue/alienBlue_climb2.png using Guid(ed21cb81f28b06740878bd54b92a9e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82de5f6790335c1461567789f0b03cdd') in 0.029206 seconds 
+  Import took 0.032041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Blue/alienBlue_front.png
+  artifactKey: Guid(4405a904e03c88946938d40b4219aa5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Blue/alienBlue_front.png using Guid(4405a904e03c88946938d40b4219aa5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077a0bc0bc6668dea3f7f7817d9d2e06') in 0.036824 seconds 
+  Import took 0.039615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Blue/alienBlue_front.png
+  artifactKey: Guid(cf25eba0293575341912f1a9f5cec8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Blue/alienBlue_front.png using Guid(cf25eba0293575341912f1a9f5cec8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed15213b91c5da806adc2de1ccb1f26') in 0.029385 seconds 
+  Import took 0.032204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Blue/alienBlue_duck.png
+  artifactKey: Guid(067139e0fc21c7e4b8de8042f4c2d855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Blue/alienBlue_duck.png using Guid(067139e0fc21c7e4b8de8042f4c2d855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd220ffef0354da082b48e3c7b810fac') in 0.026446 seconds 
+  Import took 0.029097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Blue/alienBlue_hit.png
+  artifactKey: Guid(35c6afc0992a41243b3d7f3823eb8aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Blue/alienBlue_hit.png using Guid(35c6afc0992a41243b3d7f3823eb8aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a70036bb918e571cb41bb84930914f5') in 0.028696 seconds 
+  Import took 0.031573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097523 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Blue/alienBlue_jump.png
+  artifactKey: Guid(bb1c25ec95861284c90538f371d18ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Blue/alienBlue_jump.png using Guid(bb1c25ec95861284c90538f371d18ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5c8465ae74a9a6cc6365913f8f110d') in 0.030192 seconds 
+  Import took 0.034385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Blue/alienBlue_jump.png
+  artifactKey: Guid(1a0a90d0b749f9742ba26be9da2a162e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/128x256/Blue/alienBlue_jump.png using Guid(1a0a90d0b749f9742ba26be9da2a162e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4126701c5c9ac56280520671caf2c86') in 0.024967 seconds 
+  Import took 0.027950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Blue/alienBlue_jump.png
+  artifactKey: Guid(bb1c25ec95861284c90538f371d18ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Map/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Blue/alienBlue_jump.png using Guid(bb1c25ec95861284c90538f371d18ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5c8465ae74a9a6cc6365913f8f110d') in 0.013305 seconds 
+  Import took 0.016129 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002892 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.940 seconds
+Domain Reload Profiling:
+	ReloadAssembly (941ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (756ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (260ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.9 MB.
+System memory in use after: 96.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2569.
+Total: 3.042200 ms (FindLiveObjects: 0.156100 ms CreateObjectMapping: 0.061900 ms MarkObjects: 2.807200 ms  DeleteObjects: 0.015600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
