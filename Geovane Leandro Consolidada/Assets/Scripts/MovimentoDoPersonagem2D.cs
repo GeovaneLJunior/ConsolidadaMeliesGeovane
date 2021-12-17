@@ -7,11 +7,14 @@ public class MovimentoDoPersonagem2D : MonoBehaviour
     Rigidbody2D rb;
     [SerializeField] [Range(0, 200)] float velocidade = 8;
     [SerializeField] [Range(0, 50)] float ForcaDoPulo = 10;
+
     public Vector2 velocidadeFinal;
     Animator animacao;
     float inputHorizontal;
     bool pediuParaPular;
     bool estaNoAr;
+    private Balada balada;
+
 
     [SerializeField] LayerMask layerPiso;
 
@@ -36,12 +39,49 @@ public class MovimentoDoPersonagem2D : MonoBehaviour
     {
         AplicaMovimento();
         EstaNoAr();
+        SonzinhoDaBalada();
     }
 
     private void LateUpdate()
     {
         AplicaAnimacao();
     }
+
+    private void OnTriggerEnter2D(Collider2D areaEmQueEntrou)
+    {
+        Balada baladaAchada = areaEmQueEntrou.GetComponent<Balada>();
+
+        if (baladaAchada != null)
+        {
+            balada = baladaAchada;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D areaEmQueSaiu)
+    {
+        Balada baladaAchada = areaEmQueSaiu.GetComponent<Balada>();
+
+        if (baladaAchada == null)
+        {
+            balada = null;
+        }
+    }
+
+    void SonzinhoDaBalada()
+    {
+        if(balada != null)
+        {
+            if (balada.balada)
+            {
+                balada.AumentarVolumeInterno();
+            }
+            else
+            {
+                balada.AumentarVolumeExterno();
+            }
+        }
+    }
+
     void AplicaAnimacao()
     {
         animacao.SetFloat("EstaAndando", Mathf.Abs(velocidadeFinal.x));
